@@ -1,4 +1,4 @@
-example.property: "I AM IN THE DEVIL"
+example.property: "I AM IN THE DEV"
 spring.jap.database: "MYSQL"
 spring.datasource.platform: "mysql"
 spring.jap.show-sql: "true"
