@@ -1,3 +1,4 @@
+example.property: "ORGANIZATION SERVICE DEV"
 spring.jap.database: "MYSQL"
 spring.datasource.platform: "mysql"
 spring.jap.show-sql: "true"
