@@ -8,6 +8,8 @@ zuul.routes.eagle-eye-organization-service: /organization/**
 #zuul.routes.licensestatic.serviceId: licensestatic
 #zuul.routes.licensestatic.ribbon.listOfServers: http://licenseservice-static1:8081, http://licenseservice-static2:8082
 #ribbon.eureka.enabled: false
+ribbon.ReadTimeout: 60000
+ribbon.SocketTimeout: 60000
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
