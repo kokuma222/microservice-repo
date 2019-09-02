@@ -1,8 +1,8 @@
 #zuul.ignored-services: "*"
 zuul.prefix:  /api
-#zuul.routes.eagle-eye-organization-service: /organization/**
-zuul.routes.organization.path: /organization/**
-zuul.routes.organization.serviceId: eagle-eye-organization-service
+zuul.routes.eagle-eye-organization-service: /organization/**
+#zuul.routes.organization.path: /organization/**
+#zuul.routes.organization.serviceId: eagle-eye-organization-service
 #zuul.routes.licensingservice: /licensing/**
 #zuul.routes.authenticationservice: /auth/**
 #zuul.routes.licensestatic.path: /licensestatic/**
